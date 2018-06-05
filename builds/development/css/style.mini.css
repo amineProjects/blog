@@ -1044,6 +1044,38 @@ img {
   color: #555;
 }
 
+.searchForm input:focus {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background-color: #bbb;
+}
+
+.blogMenu {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.blogMenu ul {
+  padding-left: 0;
+}
+
+.blogMenu li {
+  margin: 15px;
+  list-style-type: none;
+}
+
+.blogMenu a {
+  color: #7f8c8d;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Varela Round", Arial, sans-serif;
+}
+
+.blogMenu a:hover {
+  color: #3498db;
+}
+
 @media screen and (min-width: 640px) {
   .blog-name {
     text-align: left;
