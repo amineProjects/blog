@@ -56,8 +56,9 @@ gulp.task("css",function(){
 
 gulp.task("watch",function(){
     // gulp.watch(jsSources,["js"])
+    gulp.watch("builds/development/css/*.css",["css"])
     gulp.watch("components/sass/*.scss",["compass"])
     gulp.watch(htmlSources,["html"])
     // gulp.watch("builds/development/js/*.json",["json"])
 })
-gulp.task("default",[ "compass", "html", "css", "watch"]);
+gulp.task("default",[ "html", "css", "watch"]);
